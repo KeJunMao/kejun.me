@@ -9,7 +9,7 @@ export default defineConfig({
   },
   shortcuts: [
     {
-      'bg-color-base': 'bg-white dark:bg-black',
+      'bg-color-base': 'bg-zinc-50 dark:bg-zinc-900',
       'text-color-base': 'text-gray-700 dark:text-gray-200',
     },
   ],

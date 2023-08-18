@@ -11,6 +11,7 @@ function onClick() {
 
 <template>
   <AppNavButton cursor-pointer @click="onClick">
+    <!-- @vue-expect-error ignore -->
     <ColorScheme placeholder="...">
       <span
         v-if="colorMode.preference === 'dark'"
