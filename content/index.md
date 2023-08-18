@@ -3,7 +3,7 @@ title: KeJun
 description: KeJun's Portfolio
 ---
 
-Hey, I am KeJun, love technology, favorite language is <span i-simple-icons-typescript ></span> TypeScript / <span i-simple-icons-javascript ></span> JavaScript , using <span i-simple-icons-apple></span> MacOS usually.
+Hey, I am KeJun, love technology, favorite language is <span i-simple-icons-typescript color="#3178c6"></span> TypeScript / <span i-simple-icons-javascript color="#f7df1e"></span> JavaScript , using <span i-simple-icons-apple></span> MacOS usually.
 
 
 Creator of [<span i-app-logo-ai-anything></span> ai-anything](https://github.com/KeJunMao/ai-anything), [:img-icon{src="https://github.com/veler/DevToys/blob/main/assets/logo/71x71.png?raw=true"} vscode-devtoys](https://github.com/KeJunMao/vscode-devtoys), [:img-icon{src="https://github.com/KeJunMao/better-emby-server/blob/master/docs/logowhite.png?raw=true"} better-emby-server](https://github.com/KeJunMao/better-emby-server), [:img-icon{src="https://github.com/KeJunMao/vdraw/blob/master/public/img/icons/favicon-32x32.png?raw=true"} vdraw](https://github.com/KeJunMao/vdraw), [jekyll-theme-mdui](https://github.com/KeJunMao/jekyll-theme-mdui) and others. <br/>
