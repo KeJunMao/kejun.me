@@ -2,7 +2,6 @@
 title: KeJun
 description: KeJun's Portfolio
 ---
-# KeJun
 
 Hey, I am KeJun, love technology, favorite language is <span i-simple-icons-typescript ></span> TypeScript / <span i-simple-icons-javascript ></span> JavaScript , using <span i-simple-icons-apple></span> MacOS usually.
 
