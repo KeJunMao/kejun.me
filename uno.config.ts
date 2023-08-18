@@ -35,7 +35,18 @@ export default defineConfig({
         mono: 'DM Mono:400,600',
       },
     }),
-    presetTypography(),
+    presetTypography({
+      cssExtend: {
+        'a': {
+          'text-decoration': 'none',
+          'border-bottom': '1px solid rgba(125,125,125,.3)',
+          'transition': 'border .3s ease-in-out',
+        },
+        'a:hover': {
+          'border-bottom-color': 'var(--kejun-primary-color)',
+        },
+      },
+    }),
   ],
   transformers: [
     transformerDirectives(),
