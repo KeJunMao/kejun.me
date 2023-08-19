@@ -1,5 +1,4 @@
 ---
 title: Blog
+layout: page
 ---
-
-# Blog

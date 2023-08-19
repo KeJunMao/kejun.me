@@ -1,5 +1,5 @@
 <template>
-  <KeJunPageLayout>
+  <KeJunPostLayout>
     <slot />
-  </KeJunPageLayout>
+  </KeJunPostLayout>
 </template>
