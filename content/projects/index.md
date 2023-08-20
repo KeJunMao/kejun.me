@@ -118,6 +118,11 @@ projects:
     - name: 'vdraw'
       link: 'https://github.com/KeJunMao/vdraw'
       desc: 'Vue & Paper.js 支持多人合作的画板工具'
+    - name: 'Uni Helper'
+      link: 'https://uni-helper.js.org/'
+      desc: 'Uni Helper 官网'
+      icon: 'i-app-logo-uni-helper'
+
 
   VS Code Extensions:
     - name: 'what-color-is-this'
