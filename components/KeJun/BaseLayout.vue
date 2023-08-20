@@ -1,9 +1,11 @@
 <script lang="ts" setup>
 import ContentComment from '@/components/content/Comment.vue'
 
-defineProps<{
+withDefaults(defineProps<{
   containerClass?: string
-}>()
+}>(), {
+  containerClass: 'container',
+})
 const { page } = useContent()
 const commentConfig = computed(() => {
   const {
@@ -17,7 +19,7 @@ const commentConfig = computed(() => {
 
 <template>
   <div flex flex-1 flex-col>
-    <main mx-auto flex-1 p-4 :class="[containerClass ? containerClass : 'container']">
+    <main mx-auto flex-1 p-4 :class="[containerClass]">
       <h1 my-4 text-center text-4xl font-600 leading-tight>
         {{ page.title }}
       </h1>

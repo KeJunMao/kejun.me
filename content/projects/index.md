@@ -1,6 +1,8 @@
 ---
 title: Projects
 layout: page
+comment:
+  show: false
 projects:
 
   Unplugins:
