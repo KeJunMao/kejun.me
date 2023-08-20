@@ -8,6 +8,9 @@
       <AppNavButton to="/projects">
         Projects
       </AppNavButton>
+      <AppNavButton to="/guestbook">
+        Guestbook
+      </AppNavButton>
       <AppColorSwitcher />
     </div>
   </header>

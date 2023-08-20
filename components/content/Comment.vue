@@ -10,7 +10,7 @@ const showComment = computed(() => props.config.show)
 </script>
 
 <template>
-  <div v-show="showComment" mx-auto mt-4 max-w-3xl>
+  <div v-lazy-show="showComment" mx-auto mt-4 max-w-3xl>
     <Giscus
       repo="kejunmao/kejun.me"
       repo-id="R_kgDOKIg8yw"
