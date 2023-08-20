@@ -4,6 +4,8 @@ description: KeJun's Portfolio
 image:
   src: 'https://kejun.me/og.png'
   alt: KeJun's Portfolio
+comment:
+  show: false
 ---
 
 Hey, I'm KeJun. I'm passionate about technology and my favorite languages are <span i-simple-icons-typescript color="#3178c6"></span> TypeScript and <span i-simple-icons-javascript color="#f7df1e"></span> JavaScript. I primarily use <span i-simple-icons-apple></span> MacOS.
