@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
+      title: 'KeJun',
       htmlAttrs: {
         lang: 'en',
       },
@@ -17,6 +18,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@nuxtjs/color-mode',
     '@nuxt/content',
+    'v-lazy-show/nuxt',
   ],
   css: [
     '@unocss/reset/tailwind.css',
