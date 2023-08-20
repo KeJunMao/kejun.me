@@ -37,6 +37,9 @@ export default defineConfig({
     }),
     presetTypography({
       cssExtend: {
+        '.prose': {
+          'max-width': 'initial',
+        },
         'a': {
           'text-decoration': 'none',
           'border-bottom': '1px solid rgba(125,125,125,.3)',

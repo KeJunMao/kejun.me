@@ -27,6 +27,7 @@
     "unocss": "^0.55.1"
   },
   "dependencies": {
+    "@giscus/vue": "^2.3.0",
     "@vueuse/core": "^10.3.0"
   }
 }
