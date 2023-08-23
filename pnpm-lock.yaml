@@ -49,6 +49,9 @@ devDependencies:
   '@vueuse/nuxt':
     specifier: ^10.3.0
     version: 10.3.0(nuxt@3.6.5)(vue@3.3.4)
+  animated-unocss:
+    specifier: ^0.0.4
+    version: 0.0.4
   eslint:
     specifier: ^8.47.0
     version: 8.47.0
@@ -2837,6 +2840,10 @@ packages:
       fast-json-stable-stringify: 2.1.0
       json-schema-traverse: 0.4.1
       uri-js: 4.4.1
+    dev: true
+
+  /animated-unocss@0.0.4:
+    resolution: {integrity: sha512-V3lntsUQ/JYiYt+eSzxKOcEcDK8ZpkXewQj2tfjNQ9Lzrc8pbMqwUifgwAY0jsLEL+THajQruKnMA/3bkHDu0w==}
     dev: true
 
   /ansi-align@3.0.1:

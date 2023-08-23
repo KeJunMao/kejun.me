@@ -1,5 +1,6 @@
 import { defineConfig, presetAttributify, presetIcons, presetTypography, presetUno, presetWebFonts, transformerDirectives } from 'unocss'
 import { FileSystemIconLoader } from '@iconify/utils/lib/loader/node-loaders'
+import { animatedUno } from 'animated-unocss'
 
 export default defineConfig({
   content: {
@@ -29,6 +30,7 @@ export default defineConfig({
     }),
     presetAttributify(),
     presetUno(),
+    animatedUno(),
     presetWebFonts({
       fonts: {
         sans: 'Inter:400,600,800',
