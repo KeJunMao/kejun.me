@@ -81,6 +81,7 @@ projects:
     - name: 'BVHover'
       link: 'https://github.com/KeJunMao/BVHover'
       desc: 'B站视频评论区BV信息显示'
+      icon: 'i-ri-bilibili-fill'
     - name: 'fastjekyll'
       link: 'https://github.com/KeJunMao/fastjekyll'
       desc: 'Autoinstall Jekyll for windows'
@@ -95,9 +96,7 @@ projects:
       link: 'https://github.com/KeJunMao/emoji-survival-game'
       desc: '模拟 Vampire Survivors'
       icon: 'i-ri-gamepad-fill'
-    - name: 'joycontrol'
-      link: 'https://github.com/KeJunMao/joycontrol'
-      desc: '斗鱼弹幕控制 Switch'
+
 
 
   Websites / Self-hosted:
@@ -120,6 +119,7 @@ projects:
     - name: 'vdraw'
       link: 'https://github.com/KeJunMao/vdraw'
       desc: 'Vue & Paper.js 支持多人合作的画板工具'
+      icon: 'https://s2.loli.net/2023/08/19/3IaiNYGwW56vD1d.png'
     - name: 'Uni Helper'
       link: 'https://uni-helper.js.org/'
       desc: 'Uni Helper 官网'
@@ -130,9 +130,11 @@ projects:
     - name: 'what-color-is-this'
       link: 'https://github.com/KeJunMao/what-color-is-this'
       desc: 'Name your color and mom will never have to worry about what that color is for again'
+      icon: 'i-app-logo-what-color'
     - name: 'vscode-devtoys'
       link: 'https://github.com/KeJunMao/vscode-devtoys'
       desc: 'DevToys for VScode'
+      icon: 'https://s2.loli.net/2023/08/19/PcVLyJD7zNm6bh3.png'
 
   CLI:
     - name: 'edgegpt'
@@ -150,6 +152,7 @@ projects:
     - name: 'oji'
       link: 'https://github.com/KeJunMao/oji'
       desc: '(◕‿◕) 颜文字生成器 golang 版'
+
   Demo:
     - name: 'seat-area'
       link: 'https://github.com/KeJunMao/seat-area'
@@ -174,6 +177,9 @@ projects:
     - name: 'bilibili-box'
       link: 'https://github.com/KeJunMao/bilibili-box'
       desc: '将你的B站最新投稿显示在 pinned gist。'
+    - name: 'joycontrol'
+      link: 'https://github.com/KeJunMao/joycontrol'
+      desc: '斗鱼弹幕控制 Switch'
 ---
 
 :project-list{:projects="projects"}

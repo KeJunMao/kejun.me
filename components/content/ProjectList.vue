@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import ImgIcon from '@/components/content/ImgIcon.vue'
+
 interface Project {
   name: string
   link: string
@@ -20,7 +22,8 @@ defineProps<{
       <NuxtLink v-for="project in category" :key="project.name" :to="project.link" target="_blank" rounded-xl p-4 border="~ zinc/20 hover:transparent" class="group/item transition-all hover:bg-zinc/7">
         <div flex items-center>
           <div v-if="project.icon" mr-3 h-12 w-12 rounded class="bg-zinc-2/20" dark:bg-zinc-8 flex="~ items-center justify-center">
-            <span :class="project.icon" text-xl op-70 class="group-hover/item:op-100" />
+            <span v-if="project.icon.startsWith('i')" :class="project.icon" text-xl op-70 class="group-hover/item:op-100" />
+            <ImgIcon v-else :src="project.icon" />
           </div>
           <h4 line-clamp-1 text-lg font-medium>
             {{ project.name }}

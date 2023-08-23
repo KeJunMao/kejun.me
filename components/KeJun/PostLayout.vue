@@ -18,7 +18,7 @@ const showCC = computed(() => {
     <slot />
     <KeJunFooter v-if="showCC">
       <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-        CC BY-NC-SA 4.0</a> 2021-PRESENT © KeJun
+        CC BY-NC-SA 4.0</a> 2016-PRESENT © KeJun
     </KeJunFooter>
   </KeJunBaseLayout>
 </template>
