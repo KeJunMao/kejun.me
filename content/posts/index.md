@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: 博客
 comment:
   show: false
 cc:

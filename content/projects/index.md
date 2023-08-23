@@ -1,5 +1,5 @@
 ---
-title: Projects
+title: 项目
 layout: page
 comment:
   show: false

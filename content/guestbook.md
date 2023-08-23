@@ -1,6 +1,8 @@
 ---
-title: Welcome to my Guestbook
+title: 留言墙
 cc:
   show: false
 ---
-This is where you can leave what you want to say to me, or your advice, or your thoughts, or your criticism, or your praise, or your encouragement, or your trolling.
+<div text-center>
+在这里，你可以留下你想对我说的话，或是你的建议，或是你的想法，或是你的批评，或是你的赞美，或是你的鼓励，或是你的吐槽。
+</div>

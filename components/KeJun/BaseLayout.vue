@@ -1,6 +1,4 @@
 <script lang="ts" setup>
-import ContentComment from '@/components/content/Comment.vue'
-
 withDefaults(defineProps<{
   containerClass?: string
 }>(), {
@@ -20,11 +18,11 @@ const commentConfig = computed(() => {
 <template>
   <div flex flex-1 flex-col>
     <main mx-auto flex-1 p-4 :class="[containerClass]">
-      <h1 my-4 text-center text-4xl font-600 leading-tight>
+      <h1 my-4 text-center text-4xl font-600 leading-tight text-color-base>
         {{ page.title }}
       </h1>
       <slot />
-      <ContentComment :config="commentConfig" />
+      <Comment :config="commentConfig" />
     </main>
   </div>
 </template>
