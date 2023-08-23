@@ -1,5 +1,6 @@
 ---
 title: 留言墙
+center: true
 cc:
   show: false
 ---

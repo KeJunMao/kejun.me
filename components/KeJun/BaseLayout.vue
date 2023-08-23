@@ -17,10 +17,15 @@ const commentConfig = computed(() => {
 
 <template>
   <div flex flex-1 flex-col>
-    <main mx-auto flex-1 p-4 :class="[containerClass]">
-      <h1 my-4 text-center text-4xl font-600 leading-tight text-color-base>
-        {{ page.title }}
-      </h1>
+    <main mx-auto flex-1 overflow-hidden p-4 py-10 lt-lg:max-w-100vw :class="[containerClass]">
+      <div class="m-auto mb-8 prose" :class="[page.center ? 'text-center' : '']">
+        <h1 class="mb-0 text-color-base">
+          {{ page.title }}
+        </h1>
+        <p v-if="page.date" class="mt-2 opacity-50">
+          {{ $dayjs(page.date).format('YYYY-MM-DD HH:mm') }}
+        </p>
+      </div>
       <slot />
       <Comment :config="commentConfig" />
     </main>
