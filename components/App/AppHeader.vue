@@ -1,6 +1,14 @@
 <script lang="ts" setup>
 const [open, toggle] = useToggle()
 const [DefineTemplate, ReuseTemplate] = createReusableTemplate()
+const navScreen = ref<HTMLElement>()
+const navScreenIsVisible = useElementVisibility(navScreen)
+watch(navScreenIsVisible, (visible) => {
+  if (visible)
+    document.body.style.overflow = 'hidden'
+  else
+    document.body.style.overflow = ''
+})
 </script>
 
 <template>
@@ -23,7 +31,7 @@ const [DefineTemplate, ReuseTemplate] = createReusableTemplate()
   </DefineTemplate>
   <ReuseTemplate />
   <Transition name="fade">
-    <div v-if="open" fixed inset-0 bottom-0 z-50 overflow-y-auto backdrop-blur md:hidden class="bg-zinc-50/75 dark:bg-zinc-900/75">
+    <div v-show="open" ref="navScreen" fixed inset-0 bottom-0 z-50 overflow-y-auto backdrop-blur md:hidden class="bg-zinc-50/75 dark:bg-zinc-900/75">
       <ReuseTemplate />
       <div text-md px-4 pb-6 pt-3 sm:px-6>
         <AppNavigation class="flex-col" @click="toggle(false)" />
