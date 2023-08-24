@@ -6,19 +6,20 @@ const postList = await queryContent('/posts', './').only(['_path', 'title', 'dat
   <div class="not-prose space-y-4">
     <div
       v-for="link of postList" :key="link._path"
-      rounded rounded-xl p-4 p-6 border="~ zinc/20 hover:transparent" class="transition-all hover:bg-zinc/7"
+      w-full rounded rounded-xl md:min-w-60ch
     >
-      <div v-if="link.date" mb-2 text-sm op-70>
-        {{ $dayjs(link.date).format('YYYY-MM-DD HH:mm') }}
-      </div>
       <NuxtLink
-        text-xl font-medium
+
         :to="link._path"
-        hover:color-primary
+
+        text-md flex flex-col-reverse font-medium md:flex-row md:items-center md:gap-2 hover:color-primary
       >
-        {{ link.title }}
+        <span>{{ link.title }}</span>
+        <span v-if="link.date" block text-sm op-70>
+          {{ $dayjs(link.date).format('YY 年 M 月 D') }}
+        </span>
       </NuxtLink>
-      <div v-if="link.tags" mt-1 flex gap-1 op-70>
+      <div v-if="link.tags" flex gap-1 op-70>
         <div v-for="item in link.tags" :key="item" rounded p-1 text-sm class="hover:bg-zinc/20">
           #{{ item }}
         </div>
