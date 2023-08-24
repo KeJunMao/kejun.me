@@ -11,7 +11,7 @@ comment:
 
 我主导开发的项目有 [<span i-app-logo-ai-anything></span> ai-anything](https://github.com/KeJunMao/ai-anything), [:img-icon{src="https://s2.loli.net/2023/08/19/PcVLyJD7zNm6bh3.png"} vscode-devtoys](https://github.com/KeJunMao/vscode-devtoys), [:img-icon{src="https://s2.loli.net/2023/08/19/Fb7lcvrEku98JhH.png"} better-emby-server](https://github.com/KeJunMao/better-emby-server), [:img-icon{src="https://s2.loli.net/2023/08/19/3IaiNYGwW56vD1d.png"} vdraw](https://github.com/KeJunMao/vdraw), [jekyll-theme-mdui](https://github.com/KeJunMao/jekyll-theme-mdui) 以及[更多](./projects/)。
 <br>此外, 我是 [<span i-app-logo-uni-helper></span> uni-helper](https://github.com/uni-helper) 团队的发起人，也是 [ano-ui](https://github.com/ano-ui), [unocss-applet](https://github.com/unocss-applet), [Akarin](https://github.com/Akarin-project), [mikuorg](https://github.com/MikuOrg) 和 [mixcm](https://github.com/mixcm) 团队成员。
-<br>我也为一些项目做出了贡献，比如 [NuxtUI](https://github.com/nuxtlabs/ui), [Jekyll](https://github.com/jekyll), [MikuTools](https://imiku.netlify.app/), and [Get.js](https://get.js.org/apps)。
+<br>我也为一些项目做出了贡献，比如 [NuxtUI](https://github.com/nuxtlabs/ui), [MikuTools](https://imiku.netlify.app/), and [Get.js](https://get.js.org/apps)。
 
 除了编程，我还喜欢玩游戏。尽管我是个菜鸟，我还是经常在像蒸汽、任天堂 Switch 和 PS5这样的平台上玩游戏。
 

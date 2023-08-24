@@ -59,6 +59,9 @@ projects:
       link: 'https://github.com/uni-helper/axios-adapter'
       desc: '适用于 Vue2 和 Vue3 的 uniapp Axios 适配器'
       icon: 'i-simple-icons-axios'
+    - name: 'awesome-uni-app'
+      link: 'https://github.com/uni-helper/awesome-uni-app'
+      desc: '多端统一开发框架 uni-app 优秀学习资源汇总'
 
   Starter Templates:
     - name: 'vitesse-uni-app'
@@ -153,6 +156,38 @@ projects:
     - name: 'oji'
       link: 'https://github.com/KeJunMao/oji'
       desc: '(◕‿◕) 颜文字生成器 golang 版'
+
+  Maintaining:
+    - name: 'Miku Tools'
+      link: 'https://github.com/Ice-Hazymoon/MikuTools'
+      desc: '一个轻量的工具集合'
+    - name: 'ano-ui'
+      link: 'https://github.com/ano-ui/ano-ui'
+      desc: '轻量级、漂亮、快速的 UnoCSS 组件库'
+
+  Contributed:
+    - name: 'instapp'
+      link: 'https://github.com/hifocus/instapp'
+      desc: "Get apps instantly via web. "
+    - name: 'wifi-card'
+      link: 'https://github.com/bndw/wifi-card'
+      desc: "Print a QR code for connecting to your WiFi"
+    - name: 'electron-vite-vue'
+    - name: 'vite-plugin-vconsole'
+      link: 'https://github.com/vadxq/vite-plugin-vconsole'
+      desc: 'vite plugins vconsole'
+    - name: 'bumpp'
+      link: 'https://github.com/antfu/bumpp'
+      desc: 'Interactive CLI that bumps your version numbers and more'
+    - name: 'nuxtlabs/ui'
+      link: 'https://github.com/nuxtlabs/ui'
+      desc: 'Fully styled and customizable components for Nuxt.'
+    - name: 'uni-ui-types'
+      link: 'https://github.com/uni-helper/uni-ui-types'
+      desc: 'uni-ui 组件类型'
+    - name: 'uni-highlight-vscode'
+      link: 'https://github.com/uni-helper/uni-highlight-vscode'
+      desc: '在 VS Code 中对条件编译的代码注释部分提供了语法高亮'
 
   Demo:
     - name: 'seat-area'

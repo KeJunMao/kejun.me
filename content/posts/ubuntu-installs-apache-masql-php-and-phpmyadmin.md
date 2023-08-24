@@ -60,7 +60,7 @@ vim /etc/apache2/apache2.conf
 
 添加如下：
 
-```apacheconf
+```ini
 ServerName localhost
 ```
 
@@ -100,7 +100,7 @@ vim /etc/apache2/mods-enabled/dir.conf
 
 然后将 PHP 索引文件移动到第一个位置，如下：
 
-```apacheconf
+```ini
 <IfModule mod_dir.c>
 
 DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
@@ -134,7 +134,7 @@ vim /etc/apache2/apache2.conf
 
 在文件中添加如下行：
 
-```apacheconf
+```ini
 Include /etc/phpmyadmin/apache.conf
 ```
 

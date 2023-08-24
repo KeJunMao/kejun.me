@@ -17,8 +17,8 @@ const commentConfig = computed(() => {
 
 <template>
   <div flex flex-1 flex-col>
-    <main mx-auto flex-1 overflow-hidden p-4 py-10 lt-lg:max-w-100vw :class="[containerClass]">
-      <div class="m-auto mb-8 prose" :class="[page.center ? 'text-center' : '']">
+    <main mx-auto flex-1 overflow-hidden p-4 py-10 lt-md:max-w-100vw :class="[containerClass]">
+      <div class="m-auto mb-8 prose lt-md:max-w-100vw" :class="[page.center ? 'text-center' : '']">
         <h1 class="mb-0 text-color-base">
           {{ page.title }}
         </h1>
