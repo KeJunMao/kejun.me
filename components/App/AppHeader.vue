@@ -9,10 +9,10 @@ const [DefineTemplate, ReuseTemplate] = createReusableTemplate()
       <div mx-auto flex items-center justify-between container>
         <slot name="left" />
         <div flex gap-4 color-gray-500 lg:gap-4 dark:color-gray-400>
-          <AppNavigation class="hidden! lg:flex!" />
+          <AppNavigation class="hidden! md:flex!" />
           <AppColorSwitcher />
           <AppNavButton
-            class="cursor-pointer text-lg lg:hidden"
+            class="cursor-pointer text-lg md:hidden"
             @click="toggle(!open)"
           >
             <span :class="[open ? 'i-ri-close-fill' : 'i-ri-menu-fill']" />
@@ -23,7 +23,7 @@ const [DefineTemplate, ReuseTemplate] = createReusableTemplate()
   </DefineTemplate>
   <ReuseTemplate />
   <Transition name="fade">
-    <div v-if="open" fixed inset-0 bottom-0 z-50 overflow-y-auto bg-white lg:hidden dark:bg-zinc-900>
+    <div v-if="open" fixed inset-0 bottom-0 z-50 overflow-y-auto backdrop-blur md:hidden class="bg-zinc-50/75 dark:bg-zinc-900/75">
       <ReuseTemplate />
       <div text-md px-4 pb-6 pt-3 sm:px-6>
         <AppNavigation class="flex-col" @click="toggle(false)" />
