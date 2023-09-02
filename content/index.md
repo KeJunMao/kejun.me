@@ -13,7 +13,7 @@ comment:
 <br>此外, 我是 [<span i-app-logo-uni-helper></span> uni-helper](https://github.com/uni-helper) 团队的发起人，也是 [ano-ui](https://github.com/ano-ui), [unocss-applet](https://github.com/unocss-applet), [Akarin](https://github.com/Akarin-project), [mikuorg](https://github.com/MikuOrg) 和 [mixcm](https://github.com/mixcm) 团队成员。
 <br>我也为一些项目做出了贡献，比如 [NuxtUI](https://github.com/nuxtlabs/ui), [MikuTools](https://imiku.netlify.app/), and [Get.js](https://get.js.org/apps)。
 
-除了编程，我还喜欢玩游戏。尽管我是个菜鸟，我还是经常在像蒸汽、任天堂 Switch 和 PS5这样的平台上玩游戏。
+除了编程，我还喜欢玩游戏。尽管我是个菜鸟，我还是经常在 Steam、Switch 和 PS5 上玩游戏。
 
 除了编程， 我还喜欢玩 <span animated animated-tada animated-infinite inline-block>🎮</span> 游戏。尽管我是个菜鸟，但我还是经常在 <span i-simple-icons-steam></span> Steam, <span i-simple-icons-nintendoswitch></span> Nintendo Switch 和 <span i-simple-icons-playstation></span> PS5 上玩游戏。
 <br>我最喜欢的事情就是和我 <span animated animated-heart-beat animated-infinite inline-block>❤</span> 老婆一起做饭。我们每天都一起准备并享受每一顿饭。谢谢老婆总是帮我洗碗 🥹
