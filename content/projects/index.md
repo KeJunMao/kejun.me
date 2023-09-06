@@ -11,6 +11,10 @@ projects:
       link: 'https://github.com/KeJunMao/unplugin-compression'
       desc: 'Compress dist to zip, tar, taz.'
       icon: 'i-app-logo-unplugin-compression'
+    - name: 'unplugin-preprocessor-directives'
+      link: 'https://github.com/KeJunMao/unplugin-preprocessor-directives'
+      desc: 'preprocessor directives for js,css,html,vue,tsx and more'
+      icon: 'i-app-logo-unplugin-preprocessor-directives'
 
   Vite Ecosystem:
     - name: 'vite-plugin-conditional-compile'
@@ -131,14 +135,18 @@ projects:
 
 
   VS Code Extensions:
-    - name: 'what-color-is-this'
-      link: 'https://github.com/KeJunMao/what-color-is-this'
-      desc: 'Name your color and mom will never have to worry about what that color is for again'
-      icon: 'i-app-logo-what-color'
     - name: 'vscode-devtoys'
       link: 'https://github.com/KeJunMao/vscode-devtoys'
       desc: 'DevToys for VScode'
       icon: 'https://s2.loli.net/2023/08/19/PcVLyJD7zNm6bh3.png'
+    - name: 'what-color-is-this'
+      link: 'https://github.com/KeJunMao/what-color-is-this'
+      desc: 'Name your color and mom will never have to worry about what that color is for again'
+      icon: 'i-app-logo-what-color'
+    - name: 'vscode-accept-completion-with-number-keys'
+      link: 'https://github.com/KeJunMao/vscode-accept-completion-with-number-keys'
+      desc: 'Accept Completion With Number Keys'
+      icon: 'i-carbon-list-numbered'
 
   CLI:
     - name: 'edgegpt'

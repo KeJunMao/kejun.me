@@ -9,13 +9,11 @@ const postList = await queryContent('/posts', './').only(['_path', 'title', 'dat
       w-full rounded rounded-xl md:min-w-60ch
     >
       <NuxtLink
-
         :to="link._path"
-
         text-md flex flex-col-reverse font-medium md:flex-row md:items-center md:gap-2 hover:color-primary
       >
         <span>{{ link.title }}</span>
-        <span v-if="link.date" block text-sm op-70>
+        <span v-if="link.date" block whitespace-nowrap text-sm op-70>
           {{ $dayjs(link.date).format('YY 年 M 月 D') }}
         </span>
       </NuxtLink>
