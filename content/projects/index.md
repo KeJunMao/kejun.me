@@ -15,6 +15,10 @@ projects:
       link: 'https://github.com/KeJunMao/unplugin-preprocessor-directives'
       desc: 'preprocessor directives for js,css,html,vue,tsx and more'
       icon: 'i-app-logo-unplugin-preprocessor-directives'
+    - name: 'unplugin-notifier'
+      link: 'https://github.com/KeJunMao/unplugin-notifier'
+      desc: 'Send native notifications when an error occurs in a bundle build'
+      icon: 'i-app-logo-unplugin-notifier'
 
   Vite Ecosystem:
     - name: 'vite-plugin-conditional-compile'
