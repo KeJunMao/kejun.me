@@ -13,20 +13,24 @@ const iconList = {
   Twitter: 'i-simple-icons-twitter',
   Portfolio: 'i-carbon-user-avatar-filled',
 }
+
+const langIconList = {
+  Typescript: 'i-logos-typescript-icon',
+  Vue: 'i-logos-vue',
+}
 </script>
 
 <template>
-  <div mx-auto flex flex-col px-4 prose prose-zinc container lg:flex-row lg:gap-16 dark:prose-invert>
+  <div mx-auto max-w-full flex flex-col px-4 prose prose-zinc lg:w-1024px xl:w-1280px lg:flex-row lg:gap-16 dark:prose-invert>
     <section p-2 pt-8 text-center lg:text-left>
-      <h3 mb-1 mt-0 text-2xl>
+      <h3 m-0 text-2xl>
         {{ data.basics.name }}
       </h3>
-      <p mb-1 mt--1 text-sm text-stone>
+      <p m-0 text-stone>
         {{ data.basics.label }}
       </p>
-
-      <a pb-2px text-xs href="mailto:hi@kejun.me" target="_blank">hi@kejun.me</a>
-      <div mt-4 text-sm space-x-4>
+      <a my-4 inline-block pb-2px text-sm href="mailto:hi@kejun.me" target="_blank">hi@kejun.me</a>
+      <div whitespace-nowrap text-xs space-x-4>
         <a v-for="item in data.basics.profiles" :key="item.network" target="_blank" :href="item.url" border-b-0 color-stone hover:color-blue>
           <div :class="iconList[item.network]" />
         </a>
@@ -45,7 +49,7 @@ const iconList = {
         <h4 class="block-title">
           项目
         </h4>
-        <div px-4 space-y-6>
+        <div relative px-4 space-y-6>
           <div v-for="item in data.projects" :key="item.name" space-y-2>
             <div flex items-center space-x-2>
               <span>{{ item.displayName }}</span>
@@ -57,11 +61,13 @@ const iconList = {
               </a>
             </div>
             <p mb-1 mt-0 text-sm color-stone-500>
-              {{ item.summary }}
+              <span mr-1 :class="langIconList[item.primaryLanguage]" /> {{ item.summary }}
             </p>
           </div>
-          <div mt-6>
-            <a :href="data.basics.projectsUrl" target="_blank" color-stone>更多项目...</a>
+          <div h-4 />
+          <div event pointer-events-none absolute w-full select-none class="bottom-0 from-zinc-50/0 to-zinc-50 bg-gradient-to-b m-0! dark:from-zinc-900/0 dark:to-zinc-900">
+            <div h-50 />
+            <a :href="data.basics.projectsUrl" pointer-events-auto target="_blank" color-stone>更多项目...</a>
           </div>
         </div>
       </div>

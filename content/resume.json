@@ -99,6 +99,13 @@
       "primaryLanguage": "Typescript"
     },
     {
+      "name": "uni-helper/vite-plugin-uni-pages",
+      "displayName": "Uni Pages",
+      "summary": "为 uni-app 提供基于文件系统的路由",
+      "githubUrl": "https://github.com/uni-helper/vite-plugin-uni-pages",
+      "primaryLanguage": "Typescript"
+    },
+    {
       "name": "kejunmao/unplugin-preprocessor-directives",
       "displayName": "Preprocessor Directives",
       "summary": "preprocessor directives for jsx,tsx,js,ts,html,css,vue and more",
@@ -120,11 +127,14 @@
         "month": 9
       },
       "end": {},
-      "highlights": []
+      "highlights": [
+        "荣获优秀员工",
+        "推进团队使用 TypeScript"
+      ]
     },
     {
-      "company": "开源",
-      "position": "开源软件开发者",
+      "company": "开源软件",
+      "position": "开发者",
       "website": "https://github.com/kejunmao",
       "location": "Github",
       "isCurrentRole": true,
@@ -174,7 +184,9 @@
         "year": 2020,
         "month": 9
       },
-      "highlights": []
+      "highlights": [
+        "百度脑图二次开发并实现协作编辑"
+      ]
     }
   ],
   "education": [
