@@ -5,14 +5,15 @@ const postList = await queryContent('/posts', './').only(['_path', 'title', 'dat
 <template>
   <div class="not-prose space-y-4">
     <div
-      v-for="link of postList" :key="link._path"
-      w-full rounded rounded-xl md:min-w-60ch
+      v-for="link of postList" :key="link._path" w-full rounded rounded-xl md:min-w-60ch
     >
       <NuxtLink
-        :to="link._path"
-        text-md flex flex-col-reverse font-medium md:flex-row md:items-center md:gap-2 hover:color-primary
+        :to="link._path" text-md flex flex-col-reverse font-medium md:flex-row md:items-baseline
+        md:justify-between md:gap-2 hover:color-primary
       >
-        <span>{{ link.title }}</span>
+        <span>
+          {{ link.title }}
+        </span>
         <span v-if="link.date" block whitespace-nowrap text-sm op-70>
           {{ $dayjs(link.date).format('YY 年 M 月 D') }}
         </span>

@@ -8,7 +8,7 @@ const props = defineProps<{
 const giscus = ref<ComponentPublicInstance | null>(null)
 const iframe = ref<HTMLIFrameElement | null>(null)
 const colorMode = useColorMode()
-const showComment = computed(() => props.config.show)
+const showComment = computed(() => props.config.show || false)
 const loading = ref(true)
 
 watchOnce(iframe, () => {
@@ -29,7 +29,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div v-lazy-show="showComment" mx-auto mt-4 max-w-3xl>
+  <div v-if="showComment" mx-auto mt-4 max-w-3xl>
     <div v-if="loading" my-4 flex flex-col items-center justify-center>
       <div
         i-ri-refresh-line animate-spin text-4xl

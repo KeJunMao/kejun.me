@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     head: {
       title: 'KeJun',
       htmlAttrs: {
-        lang: 'en',
+        lang: 'zh-CN',
       },
       viewport: 'width=device-width,initial-scale=1,viewport-fit=cover',
     },
@@ -18,7 +18,6 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@nuxtjs/color-mode',
     '@nuxt/content',
-    'v-lazy-show/nuxt',
   ],
   css: [
     '@unocss/reset/tailwind.css',
@@ -39,7 +38,11 @@ export default defineNuxtConfig({
         dark: 'github-dark',
         default: 'github-light',
       },
-      preload: ['json', 'js', 'ts', 'html', 'css', 'vue', 'diff', 'shell', 'markdown', 'yaml', 'bash', 'ini'],
+      preload: [
+        'json', 'js', 'ts', 'html',
+        'css', 'vue', 'diff', 'shell',
+        'markdown', 'yaml', 'bash', 'ini', 'dockerfile',
+      ],
     },
   },
 })
