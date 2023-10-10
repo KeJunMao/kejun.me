@@ -1,0 +1,240 @@
+{
+  "basics": {
+    "name": "KeJun",
+    "label": "前端开发工程师",
+    "summary": "开源爱好者，活跃于 GitHub，保持好奇心，具有创新创造精神，持续关注业内前沿技术。",
+    "website": "https://kejun.me",
+    "address": "",
+    "projectsUrl": "https://kejun.me/projects",
+    "username": "kejun",
+    "email": "hi@kejun.me",
+    "phone": "176******97",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "kejunmao",
+        "url": "https://github.com/kejunmao"
+      },
+      {
+        "network": "Twitter",
+        "url": "https://x.com/yrmkejun",
+        "username": "yrmkejun"
+      },
+      {
+        "network": "掘金",
+        "url": "https://juejin.cn/user/2542538115777271",
+        "username": "KeJun"
+      },
+      {
+        "network": "Portfolio",
+        "username": "kejun.me",
+        "url": "https://kejun.me"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "keywords": [
+        "TypeScript",
+        "JavaScript",
+        "Vue",
+        "Nuxt",
+        "Vite"
+      ],
+      "level": "高级",
+      "name": "前端"
+    },
+    {
+      "keywords": [
+        "Node",
+        "MongoDB",
+        "MySQL",
+        "Nginx"
+      ],
+      "level": "中级",
+      "name": "后端"
+    },
+    {
+      "keywords": [
+        "Flutter",
+        "UniApp",
+        "PWA"
+      ],
+      "level": "中级",
+      "name": "移动端"
+    },
+    {
+      "keywords": [
+        "AliCloud",
+        "Linux",
+        "Docker"
+      ],
+      "level": "中级",
+      "name": "运维"
+    },
+    {
+      "keywords": [
+        "Python",
+        "Go"
+      ],
+      "level": "中级",
+      "name": "开发语言"
+    }
+  ],
+  "projects": [
+    {
+      "name": "kejunmao/ai-anything",
+      "displayName": "AI Anything",
+      "summary": "人人都能创建 GPT 工具",
+      "website": "https://aianything.netlify.app/",
+      "githubUrl": "https://github.com/KeJunMao/ai-anything",
+      "primaryLanguage": "Vue"
+    },
+    {
+      "name": "uni-helper/vitesse-uni-app",
+      "displayName": "Vitesse UniApp",
+      "website": "https://vitesse-docs.netlify.app/",
+      "summary": "又一个 UniApp 快速启动模板",
+      "githubUrl": "https://github.com/uni-helper/vitesse-uni-app",
+      "primaryLanguage": "Typescript"
+    },
+    {
+      "name": "kejunmao/unplugin-preprocessor-directives",
+      "displayName": "Preprocessor Directives",
+      "summary": "preprocessor directives for jsx,tsx,js,ts,html,css,vue and more",
+      "githubUrl": "https://github.com/KeJunMao/unplugin-preprocessor-directives",
+      "primaryLanguage": "Typescript"
+    }
+  ],
+  "work": [
+    {
+      "company": "北京举名继续教育有限公司",
+      "position": "高级前端工程师",
+      "summary": "",
+      "website": "https://www.jumingedu.com",
+      "location": "太原",
+      "isCurrentRole": true,
+      "startDate": "2022-09-01",
+      "start": {
+        "year": 2020,
+        "month": 9
+      },
+      "end": {},
+      "highlights": []
+    },
+    {
+      "company": "开源",
+      "position": "开源软件开发者",
+      "website": "https://github.com/kejunmao",
+      "location": "Github",
+      "isCurrentRole": true,
+      "startDate": "2017-01-01",
+      "start": {
+        "year": 2017,
+        "month": 1
+      },
+      "end": {},
+      "highlights": [
+        "Uni Helper 团队发起人、核心成员",
+        "200+ followers，累计 1k+ star",
+        "维护多个 UnPlugin & Vite 插件"
+      ]
+    },
+    {
+      "company": "广西兰迪科技有限公司",
+      "position": "前端工程师",
+      "website": "https://lendy520.com/",
+      "location": "远程",
+      "isCurrentRole": false,
+      "startDate": "2022-09-01",
+      "start": {
+        "year": 2020,
+        "month": 9
+      },
+      "end": {
+        "year": 2022,
+        "month": 6
+      },
+      "highlights": [
+        "独立完成小程序、H5 和 Web 应用的开发工作"
+      ]
+    },
+    {
+      "company": "北京慧辰资道资讯股份有限公司",
+      "position": "前端开发工程师实习生",
+      "website": "https://www.hcr.com.cn",
+      "location": "北京",
+      "isCurrentRole": false,
+      "startDate": "2019-06-01",
+      "start": {
+        "year": 2019,
+        "month": 6
+      },
+      "end": {
+        "year": 2020,
+        "month": 9
+      },
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "山西传媒学院",
+      "area": "数字媒体技术",
+      "studyType": "工科学士学位",
+      "startDate": "2020-09-01",
+      "endDate": "2022-06-01",
+      "start": {
+        "year": 2020,
+        "month": 9
+      },
+      "end": {
+        "year": 2022,
+        "month": 6
+      }
+    },
+    {
+      "institution": "山西轻工职业技术学院",
+      "area": "计算机网络技术",
+      "studyType": "",
+      "startDate": "2017-09-01",
+      "endDate": "2020-06-01",
+      "start": {
+        "year": 2017,
+        "month": 9
+      },
+      "end": {
+        "year": 2020,
+        "month": 6
+      }
+    }
+  ],
+  "awards": [
+    {
+      "title": "第二届青训营最佳创意奖",
+      "summary": "",
+      "awarder": "字节跳动青训营",
+      "date": "2022-01-14",
+      "fullDate": {
+        "year": 2018,
+        "month": 1
+      },
+      "highlights": [
+        "将 Vue、React、Svelte 等前端技术同时用于 VS Code 插件开发"
+      ]
+    },
+    {
+      "title": "大数据技术与应用省赛一等奖",
+      "summary": "",
+      "awarder": "山西省第十二届职业院校技能大赛",
+      "date": "2018-10-18",
+      "fullDate": {
+        "year": 2018,
+        "month": 10
+      },
+      "highlights": [
+        "实现了院系自2010年参加历届技能大赛以来\"一等奖\"为零的突破"
+      ]
+    }
+  ]
+}

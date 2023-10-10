@@ -1,7 +1,11 @@
+<script setup>
+const route = useRoute()
+</script>
+
 <template>
   <div min-h-screen flex flex-col>
     <NuxtLoadingIndicator />
-    <AppHeader>
+    <AppHeader v-if="route.meta.appHeader !== false">
       <template #left>
         <AppLogo />
       </template>

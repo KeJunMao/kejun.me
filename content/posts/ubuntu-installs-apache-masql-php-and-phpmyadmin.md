@@ -1,6 +1,6 @@
 ---
 title: "Ubuntu安装Apache，MySQL，PHP以及phpMyAdmin"
-date: 2016-04-14 10:24:49 +0800
+date: 2016-04-14 10:24
 categories: technology
 tags:
   - ubuntu

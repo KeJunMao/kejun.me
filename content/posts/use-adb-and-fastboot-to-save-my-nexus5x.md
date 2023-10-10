@@ -1,6 +1,6 @@
 ---
 title: "使用 abd + fastboot 救我的 Nexus5x"
-date: 2016-10-27 16:23:06 +0800
+date: 2016-10-27 16:23
 categories: Living
 tags:
   - android
