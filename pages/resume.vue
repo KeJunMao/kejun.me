@@ -16,28 +16,28 @@ const iconList = {
 </script>
 
 <template>
-  <div mx-auto flex flex-col px-4 prose prose-zinc container lg:flex-row lg:gap-16>
+  <div mx-auto flex flex-col px-4 prose prose-zinc container lg:flex-row lg:gap-16 dark:prose-invert>
     <section p-2 pt-8 text-center lg:text-left>
-      <h3 mt-0>
+      <h3 mb-1 mt-0 text-2xl>
         {{ data.basics.name }}
       </h3>
       <p mb-1 mt--1 text-sm text-stone>
         {{ data.basics.label }}
       </p>
 
-      <a pb-2px text-1 href="mailto:hi@kejun.me" target="_blank">hi@kejun.me</a>
+      <a pb-2px text-xs href="mailto:hi@kejun.me" target="_blank">hi@kejun.me</a>
       <div mt-4 text-sm space-x-4>
         <a v-for="item in data.basics.profiles" :key="item.network" target="_blank" :href="item.url" border-b-0 color-stone hover:color-blue>
           <div :class="iconList[item.network]" />
         </a>
       </div>
     </section>
-    <section py-8 space-y-8 lg:px-16>
+    <section py-8 space-y-10 lg:px-16>
       <div>
         <h4 class="block-title">
           关于
         </h4>
-        <p>
+        <p px-4>
           {{ data.basics.summary }}
         </p>
       </div>
@@ -45,7 +45,7 @@ const iconList = {
         <h4 class="block-title">
           项目
         </h4>
-        <div space-y-6>
+        <div px-4 space-y-6>
           <div v-for="item in data.projects" :key="item.name" space-y-2>
             <div flex items-center space-x-2>
               <span>{{ item.displayName }}</span>
@@ -60,16 +60,16 @@ const iconList = {
               {{ item.summary }}
             </p>
           </div>
-        </div>
-        <div mt-6>
-          <a :href="data.basics.projectsUrl" target="_blank" color-stone>更多项目...</a>
+          <div mt-6>
+            <a :href="data.basics.projectsUrl" target="_blank" color-stone>更多项目...</a>
+          </div>
         </div>
       </div>
       <div>
         <h4 class="block-title">
           工作经历
         </h4>
-        <div space-y-6>
+        <div px-4 space-y-6>
           <div v-for="item in data.work" :key="item.company" space-y-2>
             <div space-x-2>
               <a inline :href="item.website" target="_blank">{{ item.company }}</a>
@@ -95,9 +95,9 @@ const iconList = {
         <h4 class="block-title">
           技术栈
         </h4>
-        <div grid class="grid-cols-[80px_1fr]" gap-x-2 gap-y-4>
+        <div grid class="grid-cols-[80px_1fr]" gap-x-2 gap-y-4 px-4>
           <template v-for="item in data.skills" :key="item.name">
-            <div text-right font-bold>
+            <div font-bold>
               {{ item.name }}
             </div>
             <div>
@@ -111,7 +111,7 @@ const iconList = {
           教育经历
         </h4>
         <div space-y-6>
-          <div v-for="item in data.education" :key="item.institution" space-y-2>
+          <div v-for="item in data.education" :key="item.institution" px-4 space-y-2>
             <div space-x-2>
               <strong>{{ item.area }} {{ item.studyType }}</strong>
               <span color-stone-500>{{ item.institution }}</span>
@@ -136,7 +136,7 @@ const iconList = {
           所获荣誉
         </h4>
         <div space-y-6>
-          <div v-for="item in data.awards" :key="item.title" space-y-2>
+          <div v-for="item in data.awards" :key="item.title" px-4 space-y-2>
             <div space-x-2>
               <strong>{{ item.title }}</strong>
               <span color-stone-500>{{ item.awarder }}</span>
@@ -161,6 +161,6 @@ const iconList = {
 
 <style>
 .block-title {
-  --at-apply: w-fit bg-zinc-900 px-2 leading-relaxed color-zinc-50
+  --at-apply: w-fit bg-zinc-900 text-center w-30 leading-snug color-zinc-50 dark:bg-zinc-50 dark:text-zinc-900 mt-0;
 }
 </style>
