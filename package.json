@@ -26,6 +26,7 @@
     "animated-unocss": "^0.0.6",
     "eslint": "^8.51.0",
     "nuxt": "^3.7.4",
+    "nuxt-gtag": "^1.1.1",
     "postcss-nesting": "^12.0.1",
     "unocss": "^0.56.5"
   },

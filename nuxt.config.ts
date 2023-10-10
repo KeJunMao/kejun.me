@@ -18,6 +18,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@nuxtjs/color-mode',
     '@nuxt/content',
+    'nuxt-gtag',
   ],
   css: [
     '@unocss/reset/tailwind.css',
@@ -44,5 +45,8 @@ export default defineNuxtConfig({
         'markdown', 'yaml', 'bash', 'ini', 'dockerfile',
       ],
     },
+  },
+  gtag: {
+    id: 'G-TEV533L2T4',
   },
 })
