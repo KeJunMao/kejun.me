@@ -99,6 +99,13 @@
       "primaryLanguage": "Typescript"
     },
     {
+      "name": "uni-helper/vite-plugin-uni-pages",
+      "displayName": "Uni Pages",
+      "summary": "为 uni-app 提供基于文件系统的路由",
+      "githubUrl": "https://github.com/uni-helper/vite-plugin-uni-pages",
+      "primaryLanguage": "Typescript"
+    },
+    {
       "name": "kejunmao/unplugin-preprocessor-directives",
       "displayName": "Preprocessor Directives",
       "summary": "preprocessor directives for jsx,tsx,js,ts,html,css,vue and more",
@@ -115,11 +122,14 @@
       "location": "太原",
       "isCurrentRole": true,
       "startDate": "2022-09-01",
-      "highlights": []
+      "highlights": [
+        "荣获优秀员工",
+        "推进团队使用 TypeScript"
+      ]
     },
     {
-      "company": "开源",
-      "position": "开源软件开发者",
+      "company": "开源软件",
+      "position": "开发者",
       "website": "https://github.com/kejunmao",
       "location": "Github",
       "isCurrentRole": true,
@@ -139,7 +149,7 @@
       "startDate": "2020-09-01",
       "endDate": "2022-6-01",
       "highlights": [
-        "独立完成小程序、H5 和 Web 应用的开发工作"
+        "在线购票微信小程序、H5 应用的开发"
       ]
     },
     {
@@ -150,14 +160,17 @@
       "isCurrentRole": false,
       "startDate": "2019-06-01",
       "endDate": "2020-09-01",
-      "highlights": []
+      "highlights": [
+        "ECharts & Highcharts 可视化大屏",
+        "百度脑图二次开发"
+      ]
     }
   ],
   "education": [
     {
       "institution": "山西传媒学院",
       "area": "数字媒体技术",
-      "studyType": "工科学士学位",
+      "studyType": "工学学士学位",
       "startDate": "2020-09-01",
       "endDate": "2022-06-01"
     },
