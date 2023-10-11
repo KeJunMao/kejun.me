@@ -77,7 +77,7 @@ const iconList = {
             </div>
             <p mb-1 mt-0 text-sm color-stone-500>
               {{ $dayjs(item.startDate).format('YYYY 年 M 月') }} - {{
-                item.isCurrentRole ? '至今' : `${item.end.year} 年 ${item.end.month} 月`
+                item.isCurrentRole ? '至今' : `${$dayjs(item.endDate).format('YYYY 年 M 月')}`
               }} | {{ item.location }}
             </p>
             <p v-if="item.summary" text-base>
@@ -117,8 +117,8 @@ const iconList = {
               <span color-stone-500>{{ item.institution }}</span>
             </div>
             <p mb-1 mt-0 text-sm color-stone-500>
-              {{ `${item.start.year} 年 ${item.start.month} 月` }} -
-              {{ `${item.end.year} 年 ${item.end.month} 月` }}
+              {{ `${$dayjs(item.startDate).format('YYYY 年 M 月')}` }} -
+              {{ `${$dayjs(item.endDate).format('YYYY 年 M 月')}` }}
             </p>
             <p v-if="item.summary" text-base>
               {{ item.summary }}
@@ -142,7 +142,7 @@ const iconList = {
               <span color-stone-500>{{ item.awarder }}</span>
             </div>
             <p mb-1 mt-0 text-sm color-stone-500>
-              {{ `${item.fullDate.year} 年 ${item.fullDate.month} 月` }}
+              {{ `${$dayjs(item.date).format('YYYY 年 M 月 D 日')}` }}
             </p>
             <p v-if="item.summary" text-base>
               {{ item.summary }}
