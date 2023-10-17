@@ -70,6 +70,9 @@ projects:
     - name: 'awesome-uni-app'
       link: 'https://github.com/uni-helper/awesome-uni-app'
       desc: '多端统一开发框架 uni-app 优秀学习资源汇总'
+    - name: 'unocss-uni'
+      link: 'https://github.com/uni-helper/unocss-uni'
+      desc: '专为 uni-app 打造的 UnoCSS 预设'
 
   Starter Templates:
     - name: 'vitesse-uni-app'
