@@ -2,7 +2,7 @@
   "basics": {
     "name": "KeJun",
     "label": "前端开发工程师",
-    "summary": "开源爱好者，活跃于 GitHub，保持好奇心，具有创新创造精神，持续关注业内前沿技术。",
+    "summary": "开源爱好者，以TypeScript、Vue、Vite、UnoCss、Nuxt、uni-app 等为常用技术栈，活跃于 GitHub，保持好奇心，具有创新创造精神，持续关注业内前沿技术。",
     "website": "https://kejun.me",
     "address": "",
     "projectsUrl": "https://kejun.me/projects",
@@ -85,7 +85,7 @@
     {
       "name": "kejunmao/ai-anything",
       "displayName": "AI Anything",
-      "summary": "人人都能创建 GPT 工具",
+      "summary": "使用 Nuxt3 + OpenAI 实现的在线工具创建器，Github 500+ Star",
       "website": "https://aianything.netlify.app/",
       "githubUrl": "https://github.com/KeJunMao/ai-anything",
       "primaryLanguage": "Vue"
@@ -94,21 +94,21 @@
       "name": "uni-helper/vitesse-uni-app",
       "displayName": "Vitesse UniApp",
       "website": "https://vitesse-docs.netlify.app/",
-      "summary": "又一个 UniApp 快速启动模板",
+      "summary": "由 Vite & uni-app 驱动的跨端快速启动模板",
       "githubUrl": "https://github.com/uni-helper/vitesse-uni-app",
       "primaryLanguage": "Typescript"
     },
     {
       "name": "uni-helper/vite-plugin-uni-pages",
       "displayName": "Uni Pages",
-      "summary": "为 uni-app 提供基于文件系统的路由",
+      "summary": "为 Vite 下的 uni-app 提供基于文件系统的路由，包括自定义 Block 、Pages Schema、Vue Language Features(Volar)服务。",
       "githubUrl": "https://github.com/uni-helper/vite-plugin-uni-pages",
       "primaryLanguage": "Typescript"
     },
     {
       "name": "kejunmao/unplugin-preprocessor-directives",
       "displayName": "Preprocessor Directives",
-      "summary": "preprocessor directives for jsx,tsx,js,ts,html,css,vue and more",
+      "summary": "通用打包器预处理指令，纯正则匹配实现，内置 define、条件编译、等指令，支持自定义指令。",
       "githubUrl": "https://github.com/KeJunMao/unplugin-preprocessor-directives",
       "primaryLanguage": "Typescript"
     }

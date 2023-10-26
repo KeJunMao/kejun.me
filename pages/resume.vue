@@ -29,7 +29,7 @@ const langIconList = {
       <p m-0 text-stone>
         {{ data.basics.label }}
       </p>
-      <a my-4 inline-block pb-2px text-sm href="mailto:hi@kejun.me" target="_blank">hi@kejun.me</a>
+      <a my-4 inline-block pb-2px text-sm :href="`mailto:${data.basics.email}`" target="_blank">{{ data.basics.email }}</a>
       <div whitespace-nowrap text-xs space-x-4>
         <a v-for="item in data.basics.profiles" :key="item.network" target="_blank" :href="item.url" border-b-0 color-stone hover:color-blue>
           <div :class="iconList[item.network]" />
