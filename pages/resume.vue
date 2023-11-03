@@ -36,7 +36,7 @@ const langIconList = {
         </a>
       </div>
     </section>
-    <section py-8 space-y-10 lg:px-16>
+    <section flex-1 py-8 space-y-10 lg:px-16>
       <div>
         <h4 class="block-title">
           关于
@@ -101,13 +101,16 @@ const langIconList = {
         <h4 class="block-title">
           技术栈
         </h4>
-        <div grid class="grid-cols-[4em_1fr]" gap-x-4 gap-y-4 px-4>
+        <div grid class="grid-cols-[5em_1fr] sm:grid-cols-[5em_1fr_3em]" gap-x-4 gap-y-4 px-4>
           <template v-for="item in data.skills" :key="item.name">
             <div style="text-align-last: justify;" font-bold>
               {{ item.name }}
             </div>
             <div>
               {{ item.keywords.join(', ') }}
+            </div>
+            <div hidden color-stone-500 sm:block>
+              {{ item.level }}
             </div>
           </template>
         </div>
@@ -167,6 +170,18 @@ const langIconList = {
 
 <style>
 .block-title {
-  --at-apply: w-fit bg-zinc-900 text-center w-30 leading-snug color-zinc-50 dark:bg-zinc-50 dark:text-zinc-900 mt-0;
+  padding-left: 0.8em;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.block-title::before {
+  content: "";
+  display: block;
+  height: 1em;
+  width: 4px;
+  position: absolute;
+  left: 0;
+  --at-apply: dark:bg-zinc-50 bg-zinc-900
 }
 </style>

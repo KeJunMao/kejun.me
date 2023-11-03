@@ -2,7 +2,7 @@
   "basics": {
     "name": "KeJun",
     "label": "前端开发工程师",
-    "summary": "开源爱好者，以TypeScript、Vue、Vite、UnoCss、Nuxt、uni-app 等为常用技术栈，活跃于 GitHub，保持好奇心，具有创新创造精神，持续关注业内前沿技术。",
+    "summary": "开源爱好者，以 TypeScript、Vue、Vite、UnoCSS、Nuxt、uni-app 等为常用技术栈，活跃于 GitHub ，保持好奇心，具有创新创造精神，持续关注业内前沿技术。",
     "website": "https://kejun.me",
     "address": "",
     "projectsUrl": "https://kejun.me/projects",
@@ -69,7 +69,7 @@
         "Linux",
         "Docker"
       ],
-      "level": "中级",
+      "level": "初级",
       "name": "运维"
     },
     {
@@ -123,8 +123,10 @@
       "isCurrentRole": true,
       "startDate": "2022-09-01",
       "highlights": [
-        "荣获优秀员工",
-        "推进团队使用 TypeScript"
+        "基于 swagger-typescript-api 实现按服务的 Axios 类型生成",
+        "pnpm workspace 和 monorepo 架构",
+        "制定技术方案，推进团队使用 TypeScript",
+        "荣获优秀员工"
       ]
     },
     {
@@ -149,7 +151,8 @@
       "startDate": "2020-09-01",
       "endDate": "2022-6-01",
       "highlights": [
-        "在线购票微信小程序、H5 应用的开发"
+        "基于 Nuxt & Vant 的 SPA 在线购票客户端和商家端",
+        "使用 hammer.js 实现了比猫眼还要丝滑的在线选座功能"
       ]
     },
     {
@@ -161,8 +164,8 @@
       "startDate": "2019-06-01",
       "endDate": "2020-09-01",
       "highlights": [
-        "ECharts & Highcharts 可视化大屏",
-        "百度脑图二次开发"
+        "中后台 ECharts & Highcharts 可视化大屏",
+        "百度脑图二次开发，适配业务需求，自定义 Node"
       ]
     }
   ],
@@ -189,7 +192,7 @@
       "awarder": "字节跳动青训营",
       "date": "2022-01-14",
       "highlights": [
-        "将 Vue、React、Svelte 等前端技术同时用于 VS Code 插件开发"
+        "将 Vue、React、Svelte 等前端技术同时用于 VSCode 插件开发"
       ]
     },
     {
@@ -198,7 +201,7 @@
       "awarder": "山西省第十二届职业院校技能大赛",
       "date": "2018-10-18",
       "highlights": [
-        "实现了院系自2010年参加历届技能大赛以来\"一等奖\"为零的突破"
+        "实现了院系自 2010 年参加历届技能大赛以来\"一等奖\"为零的突破"
       ]
     }
   ]
