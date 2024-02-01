@@ -19,6 +19,7 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxt/content',
     'nuxt-gtag',
+    '@nuxthq/studio'
   ],
   css: [
     '@unocss/reset/tailwind.css',
