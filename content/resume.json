@@ -123,10 +123,10 @@
       "isCurrentRole": true,
       "startDate": "2022-09-01",
       "highlights": [
-        "基于 swagger-typescript-api 实现按服务的 Axios 类型生成",
-        "pnpm workspace 和 monorepo 架构",
-        "制定技术方案，推进团队使用 TypeScript",
-        "荣获优秀员工"
+        "pnpm Workspace 和 Monorepo 架构",
+        "Nuxt Layer 架构设计",
+        "基于 Swagger 的 `Axios` 类型生成",
+        "制定技术方案，推进团队使用 TypeScript"
       ]
     },
     {
@@ -139,7 +139,8 @@
       "highlights": [
         "Uni Helper 团队发起人、核心成员",
         "200+ followers，累计 1k+ star",
-        "维护多个 UnPlugin & Vite 插件"
+        "维护多个 UnPlugin & Vite 插件",
+        "积极参与开源项目的开发"
       ]
     },
     {
@@ -151,7 +152,8 @@
       "startDate": "2020-09-01",
       "endDate": "2022-6-01",
       "highlights": [
-        "基于 Nuxt & Vant 的 SPA 在线购票客户端和商家端",
+        "技术合伙人，累计 20w 用户",
+        "基于 Nuxt & Vant 的在线购票客户端和商家端",
         "使用 hammer.js 实现了比猫眼还要丝滑的在线选座功能"
       ]
     },
@@ -164,7 +166,7 @@
       "startDate": "2019-06-01",
       "endDate": "2020-09-01",
       "highlights": [
-        "中后台 ECharts & Highcharts 可视化大屏",
+        "中后台 ECharts & HighCharts 可视化大屏",
         "百度脑图二次开发，适配业务需求，自定义 Node"
       ]
     }
